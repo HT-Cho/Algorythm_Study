@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{EA910E2F-C043-48D7-A76A-6260E1770AFD}</ProjectGuid>
+    <RootNamespace>CSESAlgorythmStudy</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="12. Trafic Light.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CSES_AlgorythmStudy.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="1. Counting Room.cpp" />
+    <ClCompile Include="1. Dice Combinaiton.cpp" />
+    <ClCompile Include="1. Distinct Numbers.cpp" />
+    <ClCompile Include="10. Playlist.cpp" />
+    <ClCompile Include="2. Apartments.cpp" />
+    <ClCompile Include="3. Building Roads.cpp" />
+    <ClCompile Include="3. Coin Combination 1.cpp" />
+    <ClCompile Include="3. Coin Combination 2.cpp" />
+    <ClCompile Include="3. Ferris Wheel.cpp" />
+    <ClCompile Include="4. Concert Tickets.cpp" />
+    <ClCompile Include="5. Building Teams.cpp" />
+    <ClCompile Include="5. Removing Digits.cpp" />
+    <ClCompile Include="6. Movie Festival.cpp" />
+    <ClCompile Include="7. Book Shop.cpp" />
+    <ClCompile Include="7. Monsters.cpp" />
+    <ClCompile Include="8. Maximum Subarray Sum.cpp" />
+    <ClCompile Include="9. Edit Distance.cpp" />
+    <ClCompile Include="9. Shortest Routes 2.cpp" />
+    <ClCompile Include="Apple Division.cpp" />
+    <ClCompile Include="Coin Piles.cpp" />
+    <ClCompile Include="Collecing Numbers.cpp" />
+    <ClCompile Include="Create Strings.cpp" />
+    <ClCompile Include="2. Minimizing Coin.cpp" />
+    <ClCompile Include="14. Factory Machine.cpp" />
+    <ClCompile Include="Gray Code.cpp" />
+    <ClCompile Include="Josepus algorythm 1.cpp" />
+    <ClCompile Include="Missing Coin Sum.cpp" />
+    <ClCompile Include="Missing_Number.cpp" />
+    <ClCompile Include="NumberSpiral.cpp" />
+    <ClCompile Include="Palindrome Reorder.cpp" />
+    <ClCompile Include="Q13. 치킨 배달.cpp" />
+    <ClCompile Include="16. Reading Books.cpp" />
+    <ClCompile Include="Repetitions.cpp" />
+    <ClCompile Include="5. Restaurant Customers.cpp" />
+    <ClCompile Include="13. Room Allocation.cpp" />
+    <ClCompile Include="Run Complete.cpp" />
+    <ClCompile Include="7. Sum of Two Values.cpp" />
+    <ClCompile Include="9. Stick Lengths.cpp" />
+    <ClCompile Include="11. Towers.cpp" />
+    <ClCompile Include="12. Trafic Light.cpp" />
+    <ClCompile Include="15. Tasks and Deadline.cpp" />
+    <ClCompile Include="Two Sets.cpp" />
+    <ClCompile Include="Weird_Algorithm.cpp" />
+    <ClCompile Include="가사 찾기.cpp" />
+    <ClCompile Include="괄호 변환.cpp" />
+    <ClCompile Include="기둥과 보 설치.cpp" />
+    <ClCompile Include="뉴스 클러스터링.cpp" />
+    <ClCompile Include="메뉴 리뉴얼.cpp" />
+    <ClCompile Include="모의고사.cpp" />
+    <ClCompile Include="문자열 압축.cpp" />
+    <ClCompile Include="셔틀버스.cpp" />
+    <ClCompile Include="순위 검색.cpp" />
+    <ClCompile Include="신규 아이디 추천.cpp" />
+    <ClCompile Include="실패율.cpp" />
+    <ClCompile Include="오픈채팅방.cpp" />
+    <ClCompile Include="외벽 점검.cpp" />
+    <ClCompile Include="자물쇠와 열쇠.cpp" />
+    <ClCompile Include="추석 트래픽.cpp" />
+    <ClCompile Include="프렌즈 4블록.cpp" />
+    <ClCompile Include="후보키.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

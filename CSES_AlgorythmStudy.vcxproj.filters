@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\2020 공채 풀이">
+      <UniqueIdentifier>{5ec5e684-443f-4e3c-8afc-c247cb3ac9fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\NewFilter1">
+      <UniqueIdentifier>{8c967430-51df-41c2-9e03-026cf7b800e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2. Sort and Searching">
+      <UniqueIdentifier>{486243fd-14ba-41a3-b55e-771c93d71edf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\1. Inroductory Problems">
+      <UniqueIdentifier>{7b2ad234-f525-40d2-ac51-7bdf865878a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3. Dynamic Programming">
+      <UniqueIdentifier>{0ef95fa5-b6fe-4640-a115-59c581a63c52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4. Graph Algoritymes">
+      <UniqueIdentifier>{e2d2ed17-b79b-4cf9-b955-15fc3e5dff4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\프로그래머스 알고리즘 기출">
+      <UniqueIdentifier>{1e770ee6-25a7-4195-b7a2-60a9688c0c74}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="12. Trafic Light.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CSES_AlgorythmStudy.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="문자열 압축.cpp">
+      <Filter>소스 파일\2020 공채 풀이</Filter>
+    </ClCompile>
+    <ClCompile Include="괄호 변환.cpp">
+      <Filter>소스 파일\2020 공채 풀이</Filter>
+    </ClCompile>
+    <ClCompile Include="자물쇠와 열쇠.cpp">
+      <Filter>소스 파일\2020 공채 풀이</Filter>
+    </ClCompile>
+    <ClCompile Include="Q13. 치킨 배달.cpp">
+      <Filter>소스 파일\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="Run Complete.cpp">
+      <Filter>소스 파일\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="가사 찾기.cpp">
+      <Filter>소스 파일\2020 공채 풀이</Filter>
+    </ClCompile>
+    <ClCompile Include="기둥과 보 설치.cpp">
+      <Filter>소스 파일\2020 공채 풀이</Filter>
+    </ClCompile>
+    <ClCompile Include="외벽 점검.cpp">
+      <Filter>소스 파일\2020 공채 풀이</Filter>
+    </ClCompile>
+    <ClCompile Include="2. Apartments.cpp">
+      <Filter>소스 파일\2. Sort and Searching</Filter>
+    </ClCompile>
+    <ClCompile Include="3. Ferris Wheel.cpp">
+      <Filter>소스 파일\2. Sort and Searching</Filter>
+    </ClCompile>
+    <ClCompile Include="8. Maximum Subarray Sum.cpp">
+      <Filter>소스 파일\2. Sort and Searching</Filter>
+    </ClCompile>
+    <ClCompile Include="1. Distinct Numbers.cpp">
+      <Filter>소스 파일\2. Sort and Searching</Filter>
+    </ClCompile>
+    <ClCompile Include="4. Concert Tickets.cpp">
+      <Filter>소스 파일\2. Sort and Searching</Filter>
+    </ClCompile>
+    <ClCompile Include="Repetitions.cpp">
+      <Filter>소스 파일\1. Inroductory Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Two Sets.cpp">
+      <Filter>소스 파일\1. Inroductory Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Weird_Algorithm.cpp">
+      <Filter>소스 파일\1. Inroductory Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Apple Division.cpp">
+      <Filter>소스 파일\1. Inroductory Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Coin Piles.cpp">
+      <Filter>소스 파일\1. Inroductory Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Create Strings.cpp">
+      <Filter>소스 파일\1. Inroductory Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="1. Dice Combinaiton.cpp">
+      <Filter>소스 파일\3. Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="3. Coin Combination 1.cpp">
+      <Filter>소스 파일\3. Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="5. Removing Digits.cpp">
+      <Filter>소스 파일\3. Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="3. Building Roads.cpp">
+      <Filter>소스 파일\4. Graph Algoritymes</Filter>
+    </ClCompile>
+    <ClCompile Include="5. Building Teams.cpp">
+      <Filter>소스 파일\4. Graph Algoritymes</Filter>
+    </ClCompile>
+    <ClCompile Include="7. Monsters.cpp">
+      <Filter>소스 파일\4. Graph Algoritymes</Filter>
+    </ClCompile>
+    <ClCompile Include="9. Shortest Routes 2.cpp">
+      <Filter>소스 파일\4. Graph Algoritymes</Filter>
+    </ClCompile>
+    <ClCompile Include="6. Movie Festival.cpp">
+      <Filter>소스 파일\2. Sort and Searching</Filter>
+    </ClCompile>
+    <ClCompile Include="10. Playlist.cpp">
+      <Filter>소스 파일\2. Sort and Searching</Filter>
+    </ClCompile>
+    <ClCompile Include="5. Restaurant Customers.cpp">
+      <Filter>소스 파일\2. Sort and Searching</Filter>
+    </ClCompile>
+    <ClCompile Include="9. Edit Distance.cpp">
+      <Filter>소스 파일\3. Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="7. Book Shop.cpp">
+      <Filter>소스 파일\3. Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="Missing_Number.cpp">
+      <Filter>소스 파일\1. Inroductory Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberSpiral.cpp">
+      <Filter>소스 파일\1. Inroductory Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Palindrome Reorder.cpp">
+      <Filter>소스 파일\1. Inroductory Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="7. Sum of Two Values.cpp">
+      <Filter>소스 파일\2. Sort and Searching</Filter>
+    </ClCompile>
+    <ClCompile Include="9. Stick Lengths.cpp">
+      <Filter>소스 파일\2. Sort and Searching</Filter>
+    </ClCompile>
+    <ClCompile Include="11. Towers.cpp">
+      <Filter>소스 파일\2. Sort and Searching</Filter>
+    </ClCompile>
+    <ClCompile Include="1. Counting Room.cpp">
+      <Filter>소스 파일\4. Graph Algoritymes</Filter>
+    </ClCompile>
+    <ClCompile Include="2. Minimizing Coin.cpp">
+      <Filter>소스 파일\3. Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="3. Coin Combination 2.cpp">
+      <Filter>소스 파일\3. Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="12. Trafic Light.cpp">
+      <Filter>소스 파일\2. Sort and Searching</Filter>
+    </ClCompile>
+    <ClCompile Include="13. Room Allocation.cpp">
+      <Filter>소스 파일\2. Sort and Searching</Filter>
+    </ClCompile>
+    <ClCompile Include="14. Factory Machine.cpp">
+      <Filter>소스 파일\2. Sort and Searching</Filter>
+    </ClCompile>
+    <ClCompile Include="15. Tasks and Deadline.cpp">
+      <Filter>소스 파일\2. Sort and Searching</Filter>
+    </ClCompile>
+    <ClCompile Include="16. Reading Books.cpp">
+      <Filter>소스 파일\2. Sort and Searching</Filter>
+    </ClCompile>
+    <ClCompile Include="Missing Coin Sum.cpp">
+      <Filter>소스 파일\2. Sort and Searching</Filter>
+    </ClCompile>
+    <ClCompile Include="Josepus algorythm 1.cpp">
+      <Filter>소스 파일\2. Sort and Searching</Filter>
+    </ClCompile>
+    <ClCompile Include="Collecing Numbers.cpp">
+      <Filter>소스 파일\2. Sort and Searching</Filter>
+    </ClCompile>
+    <ClCompile Include="Gray Code.cpp">
+      <Filter>소스 파일\1. Inroductory Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="모의고사.cpp">
+      <Filter>소스 파일\프로그래머스 알고리즘 기출</Filter>
+    </ClCompile>
+    <ClCompile Include="신규 아이디 추천.cpp">
+      <Filter>소스 파일\프로그래머스 알고리즘 기출</Filter>
+    </ClCompile>
+    <ClCompile Include="오픈채팅방.cpp">
+      <Filter>소스 파일\프로그래머스 알고리즘 기출</Filter>
+    </ClCompile>
+    <ClCompile Include="추석 트래픽.cpp">
+      <Filter>소스 파일\프로그래머스 알고리즘 기출</Filter>
+    </ClCompile>
+    <ClCompile Include="실패율.cpp">
+      <Filter>소스 파일\프로그래머스 알고리즘 기출</Filter>
+    </ClCompile>
+    <ClCompile Include="뉴스 클러스터링.cpp">
+      <Filter>소스 파일\프로그래머스 알고리즘 기출</Filter>
+    </ClCompile>
+    <ClCompile Include="메뉴 리뉴얼.cpp">
+      <Filter>소스 파일\프로그래머스 알고리즘 기출</Filter>
+    </ClCompile>
+    <ClCompile Include="순위 검색.cpp">
+      <Filter>소스 파일\프로그래머스 알고리즘 기출</Filter>
+    </ClCompile>
+    <ClCompile Include="후보키.cpp">
+      <Filter>소스 파일\프로그래머스 알고리즘 기출</Filter>
+    </ClCompile>
+    <ClCompile Include="셔틀버스.cpp">
+      <Filter>소스 파일\프로그래머스 알고리즘 기출</Filter>
+    </ClCompile>
+    <ClCompile Include="프렌즈 4블록.cpp">
+      <Filter>소스 파일\프로그래머스 알고리즘 기출</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
